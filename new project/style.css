@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+}
+body{
+    min-height: 100vh;
+
+    background: hsla(186, 100%, 69%, 1);
+    background: linear-gradient(90deg, hsla(186, 100%, 69%, 1) 0%, hsla(217, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(186, 100%, 69%, 1) 0%, hsla(217, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(186, 100%, 69%, 1) 0%, hsla(217, 100%, 50%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#60efff", endColorstr="#0061ff", GradientType=1 );
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    margin-top: 30px;
+}
+header .logo{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Acme', sans-serif;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color:white;
+    border-radius: 15px;
+    font-size: 18px;
+}
+header ul li a:hover,
+header ul li a.active{
+    background-color: #fff;
+    color: #0061FF;
+}
+.text1,
+.text2,
+.text3
+{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.text3{
+    margin-top: 100px;
+    align-content: center;
+}
+section{
+        margin-top: 40vh;
+        
+}
+
+section .text3 a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 5px;
+    list-style: none;
+    align-content: center;
+    justify-content: center;
+    font-size: 35px;
+        
+}
+section a:hover,
+section a:active{
+    background-color: #fff;
+    color: #0061FF;
+
+}
+
+
